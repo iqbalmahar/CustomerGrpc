@@ -1,0 +1,5 @@
+C:\Users\muhammad_iqbal\Source\Repos\CustomerGrpc\CustomerGrpc\CustomerClient1\obj\Debug\net6.0\CustomerClient1.csproj.AssemblyReference.cache
+C:\Users\muhammad_iqbal\Source\Repos\CustomerGrpc\CustomerGrpc\CustomerClient1\obj\Debug\net6.0\CustomerClient1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muhammad_iqbal\Source\Repos\CustomerGrpc\CustomerGrpc\CustomerClient1\obj\Debug\net6.0\CustomerClient1.AssemblyInfoInputs.cache
+C:\Users\muhammad_iqbal\Source\Repos\CustomerGrpc\CustomerGrpc\CustomerClient1\obj\Debug\net6.0\CustomerClient1.AssemblyInfo.cs
+C:\Users\muhammad_iqbal\Source\Repos\CustomerGrpc\CustomerGrpc\CustomerClient1\obj\Debug\net6.0\CustomerClient1.csproj.CoreCompileInputs.cache
