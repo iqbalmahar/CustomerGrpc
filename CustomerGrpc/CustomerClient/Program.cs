@@ -11,9 +11,9 @@ namespace CustomerClient
 	{
 		static async Task Main(string[] args)
 		{
-			AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
+			AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);			
+			Console.WriteLine($"Enter name to join chat");
 			var myname = Console.ReadLine();
-
 			var customer = new Customer
 			{
 				ColorInConsole = GetRandomChatColor(),
@@ -49,7 +49,7 @@ namespace CustomerClient
 				Console.WriteLine($"Joined the chat as {customer.Name}");
 
 				var line = Console.ReadLine();
-				DeletePrevConsoleLine();
+				//DeletePrevConsoleLine();
 				while (!string.Equals(line, "qw!", StringComparison.OrdinalIgnoreCase))
 				{
 					await streaming.RequestStream.WriteAsync(new ChatMessage
